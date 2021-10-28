@@ -1,0 +1,244 @@
+---------------Repo Access Task
+
+Hi DEVOPS TEAM
+
+THis is padma, recently joined with flipkart app dev team, please provide acccess to sepbatch repo
+
+my email id: padma@flipkart.com
+
+REPO NAME: SEPBATCH
+
+
+Hi Padma,
+
+I have provided acess to sepbatch repo, please check ur mailbox to see the inviation and accpt it.
+
+Thanks,
+KIran
+------------------------REPO CREATION TASK 
+
+Hi DEVOPS TEAM
+
+THis is padma, recently joined with flipkart app dev team, please Create new repo for our development.
+
+
+REPO NAME: Payment-module
+Type: Private
+Team members: FAYAZ@flipkart.com
+
+
+
+Hi Padma,
+
+I have created payment-module repo and provided acess to same repo, please check ur mailbox to see the inviation and accpt it.
+
+Thanks,
+KIran
+
+-------------------------GIT CLONE
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github
+$ ls
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github
+$ git clone https://github.com/kirankumar77/sepbatch.git
+Cloning into 'sepbatch'...
+warning: You appear to have cloned an empty repository.
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github
+$ ls
+sepbatch/
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github
+$ cd sepbatch/
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ ls
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$
+
+
+-------------GIT ADD 
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git add main.java
+warning: LF will be replaced by CRLF in main.java.
+The file will have its original line endings in your working directory
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   main.java
+
+-----------------git commit to record changes
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git commit -m "developed new application code"
+[master (root-commit) 278af69] developed new application code
+ 1 file changed, 6 insertions(+)
+ create mode 100644 main.java
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git show 278af69
+commit 278af6927317f65d3149375bc99c9919fbe0bd3a (HEAD -> master)
+Author: kirankumar <kirankumar0990@gmail.com>
+Date:   Wed Sep 22 19:59:06 2021 +0530
+
+    developed new application code
+
+diff --git a/main.java b/main.java
+new file mode 100644
+index 0000000..c485a0b
+--- /dev/null
++++ b/main.java
+@@ -0,0 +1,6 @@
++main {
++       {
++               this is for flipkart application development
++       }
++}
++
+
+
+
+-------------------how to push same file to GITHUB
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 283 bytes | 141.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kirankumar77/sepbatch.git
+ * [new branch]      master -> master
+
+
+NOW YOU CAN SEE MANI.JAVA FILE IN YOUR GITHUB REPOSITORY
+
+========24/09/2021  BRANCH CREATION  TOPIC
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ ls
+cde.java  main.java
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git branch
+* master
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git branch newbranch
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git branch
+* master
+  newbranch
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git branch login-change
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git branch
+  login-change
+* master
+  newbranch
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ ls
+cde.java  main.java
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (master)
+$ git checkout login-change
+Switched to branch 'login-change'
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (login-change)
+$ ls
+cde.java  main.java
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (login-change)
+$ vi main.java
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (login-change)
+$ git status
+On branch login-change
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   main.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (login-change)
+$ git add main.java
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (login-change)
+$ git status
+On branch login-change
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   main.java
+
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/sepbatch (login-change)
+$ git commit -m "modified login option in flipkart app"
+[login-change e3b0800] modified login option in flipkart app
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/spring-app (master)
+$ git checkout login
+Switched to branch 'login'
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/spring-app (login)
+$ cat abvc.java
+this is for gitignore testing"
+
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/spring-app (login)
+$ git pull origin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/spring-app (login)
+$ git pull origin master
+From https://github.com/kirankumar77/spring-app
+ * branch            master     -> FETCH_HEAD
+Updating 773017f..b177955
+Fast-forward
+ abvc.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+KIRAN KUMAR REDDY@LAPTOP-J01UHMRN MINGW64 ~/github/spring-app (login)
+$ cat abvc.java
+this is for gitignore testing"
+this is for flipkart login re-designing
+
+
+=======================================
+
